@@ -1,0 +1,72 @@
+{
+  "Icon": "Icons/ItemsGenerated/AndiemgCheff_YakimeshiFish.png",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Food_Fish_Raw"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Processing",
+        "Id": "AndiemgCheff_Ohitsu"
+      }
+    ],
+    "TimeSeconds": 20
+  },
+  "BlockType": {
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/AndiemgCheff_Yakimeshi_Camaron.png"
+      }
+    ],
+    "CustomModel": "Items/AndiemgCheff_Yakimeshi.blockymodel",
+    "DrawType": "Model",
+    "Gathering": {
+      "Soft": {}
+    },
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "VariantRotation": "NESW",
+    "HitboxType": "Food_Medium",
+    "CustomModelScale": 0.3,
+    "BlockParticleSetId": "Dust",
+    "Particles": [
+      {
+        "SystemId": "Seed_Place_Dust"
+      }
+    ]
+  },
+  "IconProperties": {
+    "Scale": 0.4,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "UsePlayerAnimations": false,
+  "PlayerAnimationsId": {
+    "Parent": "Item"
+  },
+  "Quality": "Uncommon",
+  "Parent": "Template_Food",
+  "ItemLevel": 1,
+  "MaxStack": 64,
+  "ItemSoundSetId": "ISS_Weapons_Wand",
+  "TranslationProperties": {
+    "Description": "server.items.AndiemgCheff_Tool_Yakimeshi.description",
+    "Name": "server.items.AndiemgCheff_Tool_YakimeshiCamaron.name"
+  },
+  "Scale": 2
+}
+

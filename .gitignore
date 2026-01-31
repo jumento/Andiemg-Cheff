@@ -1,0 +1,13 @@
+.gradle/
+build/
+bin/
+out/
+.vscode/
+*.log
+*.txt
+*.bak
+
+# Private Files (Normative Protocol)
+bot.md
+GUIA.md
+features.md

@@ -1,0 +1,84 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Andiechef_Food_BotellaSalsaSoya.name",
+    "Description": "server.items.Andiechef_Food_BotellaSalsaSoya.description"
+  },
+  "Parent": "Template_Food",
+  "Quality": "Rare",
+  "Icon": "Icons/ItemsGenerated/Andiechef_Ingredient_BotellaSalsaSoya.png",
+  "BlockType": {
+    "Material": "Empty",
+    "DrawType": "Model",
+    "CustomModel": "Items/Andiechef_BotellaSalsaSoya.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Andiechef_BotellaSalsaSoya.png",
+        "Weight": 1
+      }
+    ],
+    "ParticleColor": "#78807a",
+    "CustomModelScale": 1.3,
+    "Opacity": "Solid"
+  },
+  "InteractionVars": {
+    "Effect": {
+      "Interactions": [
+        {
+          "Type": "ApplyEffect",
+          "EffectId": "Food_Health_Restore_Tiny"
+        }
+      ]
+    }
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Plant_Crop_Wheat_Item",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Andiechef_Item_Soya_Fermentada",
+        "Quantity": 3
+      },
+      {
+        "ItemId": "*Container_Bucket_State_Filled_Water"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Andiechef_Workbench",
+        "Categories": [
+          "Andiechef_Ingredients"
+        ],
+        "RequiredTierLevel": 2
+      }
+    ],
+    "TimeSeconds": 4,
+    "Output": [
+      {
+        "ItemId": "Andiechef_Ingredient_BotellaSalsaSoya"
+      },
+      {
+        "ItemId": "Container_Bucket"
+      }
+    ]
+  },
+  "ItemLevel": 10,
+  "MaxStack": 6,
+  "DropOnDeath": true,
+  "IconProperties": {
+    "Scale": 1.5,
+    "Rotation": [
+      15,
+      328,
+      317
+    ],
+    "Translation": [
+      -2,
+      -2
+    ]
+  },
+  "Scale": 2.5,
+  "ItemSoundSetId": "ISS_Items_Potion"
+}

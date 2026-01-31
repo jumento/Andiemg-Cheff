@@ -1,0 +1,93 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Andiechef_Tool_Hachimaki.name"
+  },
+  "Parent": "Armor_Iron_Head",
+  "ItemLevel": 1,
+  "Icon": "Icons/ItemsGenerated/Andiechef_Hachimaki.png",
+  "Model": "Items/Andiechef_Hachimaki.blockymodel",
+  "Texture": "Items/Andiechef_Hachimaki.png",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bolt_Wool",
+        "Quantity": 3
+      },
+      {
+        "ItemId": "Andiechef_Tools_Tropy_Salmon",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Plant_Petals_Red"
+      },
+      {
+        "ItemId": "Ingredient_Charcoal"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Andiechef_Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Andiechef_Tools"
+        ]
+      }
+    ],
+    "KnowledgeRequired": false,
+    "TimeSeconds": 3
+  },
+  "Armor": {
+    "ArmorSlot": "Head",
+    "BaseDamageResistance": 0,
+    "DamageResistance": {
+      "Physical": [
+        {
+          "Amount": 0.036,
+          "CalculationType": "Multiplicative"
+        }
+      ],
+      "Projectile": [
+        {
+          "Amount": 0.036,
+          "CalculationType": "Multiplicative"
+        }
+      ]
+    },
+    "StatModifiers": {
+      "Health": [
+        {
+          "Amount": 5,
+          "CalculationType": "Additive"
+        }
+      ]
+    },
+    "CosmeticsToHide": [
+      "HeadAccessory"
+    ]
+  },
+  "MaxDurability": 80,
+  "Tags": {
+    "Type": [
+      "Armor"
+    ],
+    "Family": [
+      "Copper"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Armor_Heavy",
+  "DurabilityLossOnHit": 0.5,
+  "Quality": "Uncommon",
+  "IconProperties": {
+    "Scale": 0.6,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      1,
+      -101
+    ]
+  },
+  "Scale": 1
+}

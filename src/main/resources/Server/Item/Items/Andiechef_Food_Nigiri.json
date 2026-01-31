@@ -1,0 +1,81 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Andiechef_Food_Nigiri.name",
+    "Description": "server.items.Andiechef_Food_Nigiri.description"
+  },
+  "Parent": "Template_Food",
+  "Quality": "Legendary",
+  "Icon": "Icons/ItemsGenerated/Andiechef_Food_Nigiri.png",
+  "BlockType": {
+    "Material": "Empty",
+    "DrawType": "Model",
+    "CustomModel": "Items/Andiechef_Nigiri.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Andiechef_Nigiri.png",
+        "Weight": 1
+      }
+    ],
+    "ParticleColor": "#a2aba8"
+  },
+  "InteractionVars": {
+    "Effect": {
+      "Interactions": [
+        {
+          "Type": "ApplyEffect",
+          "EffectId": "Food_Instant_Heal_T3"
+        },
+        {
+          "Type": "ApplyEffect",
+          "EffectId": "FruitVeggie_Buff_T3"
+        },
+        "FruitVeggie_Buff_T3",
+        "HealthRegen_TierCheck_T3",
+        "Meat_TierCheck_T3"
+      ]
+    }
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Food_Fish_Raw",
+        "Quantity": 3
+      },
+      {
+        "ItemId": "Plant_Crop_Rice_Item",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Andiechef_Ingredient_Wasabi",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Andiechef_Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Andiechef_Food"
+        ],
+        "RequiredTierLevel": 2
+      }
+    ],
+    "TimeSeconds": 5
+  },
+  "ItemLevel": 20,
+  "MaxStack": 5,
+  "DropOnDeath": true,
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      2,
+      -11
+    ]
+  },
+  "ItemSoundSetId": "ISS_Weapons_Wand"
+}

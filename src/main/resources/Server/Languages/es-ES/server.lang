@@ -1,0 +1,65 @@
+items.Andiechef_Food_Rollo.name = Rollo California 
+items.Andiechef_Food_Rollo.description = Delicioso Rollo estilo California
+
+items.Andiechef_Food_Nigiri.name = Nigiri
+items.Andiechef_Food_Nigiri.description = Estupendo de salmonmonmon
+
+items.Andiechef_Food_Wasabi.name = Wasabi
+items.Andiechef_Food_Wasabi.description = Picosito, pica rico
+
+items.Andiechef_Food_BotellaSalsaSoya.name = Salsa de Soya
+items.Andiechef_Food_BotellaSalsaSoya.description = Condimento indispensable en la cocina
+
+items.Andiechef_Food_SalsaSoya.name = Shoyu-zara
+items.Andiechef_Food_SalsaSoya.description = Soya lista para platillos
+
+items.Andiechef_Food_Onigiri.name = Onigiri
+items.Andiechef_Food_Onigiri.description = Practicos y deliciosos, listos para la batalla
+
+items.Andiechef_Workbench.name = Barra de Sushi
+items.Andiechef_Workbench.description = Se un maestro en el arte del Sushi
+
+items.Andiechef_Food_Seed_Soya.name = Semillas de Soya
+items.Andiechef_Food_Seed_Soya.description = La Soya es fundamental en esta cocina, a cultivar!
+items.Andiechef_Food_Seed_Soya_crop.name = Soya
+items.Andiechef_Food_Seed_Soya_crop.description = Cultivo de Soya  
+items.Andiechef_Food_Seed_Soya_Item.name = Soya 
+items.Andiechef_Food_Seed_Soya_Item.description = Ocupas <color is="#ffffff">5</color> para Fermentarlas
+items.Andiechef_Food_Seed_Soya_Fermentada_Item.name = Soya Fermentada
+items.Andiechef_Food_Seed_Soya_Fermentada_Item.description = <color is="#ffffff">Cuidado</color> te puedes enfermar del estomago si las comes
+items.Andiechef_Fermentadora.name = Vasija Fermentadora
+items.Andiechef_Fermentadora.description = Utensilio basico para fermentar las cosas
+
+Andiechef_Categories.workbench.food = Recetas
+Andiechef_Categories.workbench.ingredients = Ingredientes
+Andiechef_Categories.workbench.tools = herramientas
+
+items.Andiechef_Refiler.name = Mizusashi
+items.Andiechef_Refiler.description = Contenedor especializado para tratar con liquidos sin hacer un desastre
+
+items.Andiechef_Food_SakeBase.name = Preparado de Sake
+items.Andiechef_Food_SakeBase.description = <color is="#ffffff">Necesita fermentarse</color>, de momento puede ser toxico
+
+items.Andiechef_Food_Sake.name = Sake
+items.Andiechef_Food_Sake.description = Bebida milenaria, exquisita
+
+items.Andiechef_Food_Bubbletea.name = Bubble Tea
+items.Andiechef_Food_Bubbletea.description = Rica bebida, divertida
+
+items.Andiechef_Tool_Hachimaki.name = Hachimaki
+items.Andiechef_Tool_Hachimaki.description = Hachimaki de cheff Profesional
+
+items.Andiechef_Tool_TropySalmon.name = Trofeo de Salmon
+items.Andiechef_Tool_TropySalmon.description = Prueba fehaciente de tu destreza con los peces
+
+items.Andiechef_Love.name = Andiemg y Jume
+items.Andiechef_Love.description = Este mod surge del <color is="#BF2A2A">amor</color>, \ngracias por tu apoyo \nAndiemg & Jume
+
+items.Andiechef_Tool_Ohitsu.name = Ohitsu - Arrocera
+items.Andiechef_Tool_Ohitsu.description = Funciona con arroz, mas la carne que a ti te guste para el famoso Yakimeshi 
+
+items.Andiechef_Tool_YakimeshiRes.name = Yakimeshi de res
+items.Andiechef_Tool_YakimeshiCamaron.name = Yakimeshi de Camaron
+items.Andiechef_Tool_YakimeshiCerdo.name = Yakimeshi de Cerdo
+items.Andiechef_Tool_YakimeshiPollo.name = Yakimeshi de Pollo
+items.Andiechef_Tool_Yakimeshi.description = El alimento perfecto si no te gusta el pescado crudo

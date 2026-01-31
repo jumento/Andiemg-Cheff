@@ -1,0 +1,106 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Andiechef_Food_Wasabi.name",
+    "Description": "server.items.Andiechef_Food_Wasabi.description"
+  },
+  "Parent": "Template_Food",
+  "Quality": "Uncommon",
+  "Icon": "Icons/ItemsGenerated/Andiechef_Ingredient_Wasabi.png",
+  "BlockType": {
+    "Material": "Empty",
+    "DrawType": "Model",
+    "CustomModel": "Items/Andiechef_Wasabi.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Andiechef_Wasabi.png",
+        "Weight": 1
+      }
+    ],
+    "ParticleColor": "#00ff3e",
+    "CustomModelScale": 1.3,
+    "Opacity": "Solid",
+    "Particles": [
+      {
+        "SystemId": "Andiechef_Particle_Wasabi",
+        "Color": "#43ff09",
+        "Scale": 0.18,
+        "DetachedFromModel": false
+      }
+    ]
+  },
+  "InteractionVars": {
+    "Effect": {
+      "Interactions": [
+        {
+          "Type": "ApplyEffect",
+          "EffectId": "FruitVeggie_Buff_T3"
+        },
+        {
+          "Type": "ApplyEffect",
+          "EffectId": "Andiechef_Effect_Wasabi"
+        },
+        "HealthRegen_TierCheck_T1"
+      ]
+    }
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Plant_Crop_Chilli_Item",
+        "Quantity": 5
+      },
+      {
+        "ItemId": "Andiechef_Ingredient_BotellaSalsaSoya",
+        "Quantity": 1
+      },
+      {
+        "Quantity": 1,
+        "ItemId": "Ingredient_Salt"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Andiechef_Workbench",
+        "Categories": [
+          "Andiechef_Ingredients"
+        ],
+        "RequiredTierLevel": 2
+      }
+    ],
+    "TimeSeconds": 3,
+    "Output": [
+      {
+        "ItemId": "Andiechef_Ingredient_Wasabi"
+      }
+    ]
+  },
+  "ItemLevel": 20,
+  "MaxStack": 15,
+  "DropOnDeath": true,
+  "IconProperties": {
+    "Scale": 1.1,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0.5,
+      -1
+    ]
+  },
+  "Scale": 2.5,
+  "Particles": [
+    {
+      "Color": "#5fff02",
+      "SystemId": "Andiechef_Particle_Wasabi",
+      "TargetEntityPart": "Self",
+      "Scale": 0.18,
+      "PositionOffset": {
+        "Y": -0.3
+      }
+    }
+  ],
+  "ItemSoundSetId": "ISS_Items_Splatty"
+}

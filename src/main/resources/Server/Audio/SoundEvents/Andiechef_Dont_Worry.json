@@ -1,0 +1,13 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Items/Tropy/Andiechef_Dont_Worry.ogg"
+      ],
+      "Volume": 0
+    }
+  ],
+  "Volume": 3,
+  "MaxDistance": 15,
+  "StartAttenuationDistance": 1
+}

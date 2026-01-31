@@ -1,0 +1,24 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Andiechef_Food_Seed_Soya_Item.name",
+    "Description": "server.items.Andiechef_Food_Seed_Soya_Item.description"
+  },
+  "Parent": "Template_Crop_Item",
+  "Icon": "Icons/ItemsGenerated/Andiechef_Food_Item_Soya.png",
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      45,
+      45,
+      45
+    ],
+    "Translation": [
+      1,
+      -1
+    ]
+  },
+  "Texture": "Resources/SoyaBean.png",
+  "Model": "Resources/Plants/Seeds.blockymodel",
+  "Quality": "Common",
+  "DropOnDeath": true
+}

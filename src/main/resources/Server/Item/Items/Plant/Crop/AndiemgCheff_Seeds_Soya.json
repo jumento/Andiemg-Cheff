@@ -1,0 +1,52 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.AndiemgCheff_Food_Seed_Soya.name",
+    "Description": "server.items.AndiemgCheff_Food_Seed_Soya.description"
+  },
+  "Parent": "Template_Seeds",
+  "Quality": "Junk",
+  "InteractionVars": {
+    "SeedId": {
+      "Interactions": [
+        {
+          "Parent": "Seed_Place",
+          "BlockTypeToPlace": "AndiemgCheff_Seeds_Soya_crop"
+        }
+      ]
+    }
+  },
+  "Texture": "Resources/Soya.png",
+  "Icon": "Icons/ItemsGenerated/AndiemgCheff_Seeds_Soya.png",
+  "IconProperties": {
+    "Scale": 1.1,
+    "Rotation": [
+      0,
+      30,
+      15
+    ],
+    "Translation": [
+      2.5,
+      -11
+    ]
+  },
+  "Recipe": {
+    "TimeSeconds": 0,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Life_Essence",
+        "Quantity": 5
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "AndiemgCheff_Workbench",
+        "Categories": [
+          "AndiemgCheff_Ingredients"
+        ]
+      }
+    ]
+  },
+  "ItemLevel": 2
+}
+

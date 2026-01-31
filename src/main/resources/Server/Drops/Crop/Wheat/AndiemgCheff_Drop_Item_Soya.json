@@ -1,0 +1,22 @@
+{
+  "Container": {
+    "Type": "Multiple",
+    "Containers": [
+      {
+        "Type": "Single",
+        "Item": {
+          "ItemId": "AndiemgCheff_Food_Item_Soya",
+          "QuantityMax": 3
+        }
+      },
+      {
+        "Type": "Single",
+        "Item": {
+          "QuantityMax": 4,
+          "ItemId": "Ingredient_Life_Essence"
+        }
+      }
+    ]
+  }
+}
+

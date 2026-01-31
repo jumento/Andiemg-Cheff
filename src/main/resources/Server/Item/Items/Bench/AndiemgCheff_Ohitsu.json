@@ -1,0 +1,193 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.AndiemgCheff_Tool_Ohitsu.name",
+    "Description": "server.items.AndiemgCheff_Tool_Ohitsu.description"
+  },
+  "Icon": "Icons/ItemsGenerated/AndiemgCheff_Arrocera.png",
+  "Categories": [
+    "Furniture.Benches"
+  ],
+  "Recipe": {
+    "Input": [
+      {
+        "Quantity": 20,
+        "ItemId": "Ingredient_Fibre"
+      },
+      {
+        "Quantity": 60,
+        "ItemId": "Ingredient_Stick"
+      },
+      {
+        "ItemId": "Furniture_Tavern_Planter"
+      },
+      {
+        "ItemId": "AndiemgCheff_Ingredient_BotellaSalsaSoya"
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "AndiemgCheff_Ohitsu",
+        "Metadata": {
+          "BlockState": {
+            "Type": "processingBench",
+            "FuelContainer": {
+              "Capacity": 2
+            }
+          }
+        }
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "AndiemgCheff_Tools"
+        ],
+        "Id": "AndiemgCheff_Workbench",
+        "RequiredTierLevel": 3
+      }
+    ],
+    "TimeSeconds": 3
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Items/AndiemgCheff_Ohitsu.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/AndiemgCheff_Ohitsu.png",
+        "Weight": 1
+      }
+    ],
+    "VariantRotation": "NESW",
+    "Bench": {
+      "Type": "Processing",
+      "Input": [
+        {
+          "Icon": "Icons/ItemsGenerated/Any_Meat,png"
+        }
+      ],
+      "Fuel": [
+        {
+          "ResourceTypeId": "AndiemgCheff_Rice_Fuel",
+          "Icon": "Icons/ItemsGenerated/FuelRice.png"
+        }
+      ],
+      "LocalOpenSoundEventId": "SFX_Furnace_Bench_Close",
+      "LocalCloseSoundEventId": "SFX_Furnace_Bench_Close",
+      "CompletedSoundEventId": "SFX_Furnace_Bench_Processing_Complete",
+      "EndSoundEventId": "SFX_Furnace_Bench_Processing_End",
+      "FailedSoundEventId": "SFX_Furnace_Bench_Processing_Failed",
+      "BenchUpgradeSoundEventId": "SFX_Workbench_Upgrade_Start_Default",
+      "BenchUpgradeCompletedSoundEventId": "SFX_Workbench_Upgrade_Complete_Default",
+      "ExtraOutput": {
+        "Outputs": [
+          {
+            "ItemId": "Ingredient_Charcoal"
+          }
+        ],
+        "PerFuelItemsConsumed": 5
+      },
+      "OutputSlotsCount": 2,
+      "Id": "AndiemgCheff_Ohitsu",
+      "AllowNoInputProcessing": true
+    },
+    "State": {
+      "Id": "processingBench",
+      "Definitions": {
+        "Processing": {
+          "Looping": true,
+          "Light": {
+            "Color": "#B72"
+          },
+          "CustomModelTexture": [
+            {
+              "Texture": "Items/AndiemgCheff_Ohitsu.png",
+              "Weight": 1
+            }
+          ],
+          "Particles": [
+            {
+              "SystemId": "Temple_Light_Lantern",
+              "TargetNodeName": "Fire",
+              "Scale": 1,
+              "PositionOffset": {
+                "X": 0,
+                "Y": 0.5,
+                "Z": 0.3
+              }
+            }
+          ],
+          "AmbientSoundEventId": "SFX_Furnace_Bench_Processing",
+          "CustomModelAnimation": "Resources/Anim/OhitsuCook.blockyanim"
+        },
+        "ProcessCompleted": {
+          "Light": {
+            "Color": "#B72"
+          },
+          "CustomModelTexture": [
+            {
+              "Texture": "Items/AndiemgCheff_Ohitsu.png",
+              "Weight": 1
+            }
+          ],
+          "AmbientSoundEventId": "SFX_Furnace_Bench_Processing",
+          "Looping": true,
+          "CustomModelAnimation": "Resources/Anim/OhitsuOpen.blockyanim"
+        }
+      }
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Benches"
+      }
+    },
+    "HitboxType": "Bench_Campfire",
+    "BlockParticleSetId": "Flower",
+    "ParticleColor": "#8d7f26",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "BlockSoundSetId": "Bone",
+    "Interactions": {
+      "Use": "Open_Processing_Bench"
+    },
+    "CustomModelAnimation": "Resources/Anim/OhitsuCook.blockyanim",
+    "CustomModelScale": 1.2,
+    "Particles": [
+      {
+        "SystemId": "Seed_Place_Dust",
+        "Color": "#f7f7f7",
+        "Scale": 1
+      }
+    ]
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.6,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      -2,
+      -7
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Bench"
+    ]
+  },
+  "MaxStack": 1,
+  "ItemLevel": 3,
+  "ItemSoundSetId": "ISS_Items_Foliage",
+  "Scale": 2
+}
+

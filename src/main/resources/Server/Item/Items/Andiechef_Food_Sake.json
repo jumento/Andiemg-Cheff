@@ -1,0 +1,76 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Andiechef_Food_Sake.name",
+    "Description": "server.items.Andiechef_Food_Sake.description"
+  },
+  "Parent": "Template_Food",
+  "Quality": "Epic",
+  "Icon": "Icons/ItemsGenerated/Andiechef_Food_Sake.png",
+  "BlockType": {
+    "Material": "Empty",
+    "DrawType": "Model",
+    "CustomModel": "Items/Andiechef_Sake.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Andiechef_Sake.png",
+        "Weight": 1
+      }
+    ],
+    "ParticleColor": "#78807a",
+    "CustomModelScale": 1.3,
+    "Opacity": "Solid",
+    "BlockParticleSetId": "GlassMagic"
+  },
+  "InteractionVars": {
+    "Effect": {
+      "Interactions": [
+        {
+          "Type": "ApplyEffect",
+          "EffectId": "Poison_T1"
+        },
+        {
+          "Type": "ApplyEffect",
+          "EffectId": "Food_Health_Regen_Tiny"
+        }
+      ]
+    }
+  },
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Type": "Processing",
+        "Id": "Andiechef_Fermentadora",
+        "RequiredTierLevel": 0
+      }
+    ],
+    "TimeSeconds": 800,
+    "Output": [
+      {
+        "ItemId": "Andiechef_Food_Sake",
+        "Quantity": 1
+      }
+    ],
+    "Input": [
+      {
+        "ItemId": "Andiechef_Ingredient_SakeBase"
+      }
+    ]
+  },
+  "ItemLevel": 10,
+  "MaxStack": 25,
+  "DropOnDeath": true,
+  "IconProperties": {
+    "Scale": 0.9,
+    "Rotation": [
+      22.5,
+      34,
+      360
+    ],
+    "Translation": [
+      -3,
+      -5
+    ]
+  },
+  "Scale": 1,
+  "ItemSoundSetId": "ISS_Default"
+}

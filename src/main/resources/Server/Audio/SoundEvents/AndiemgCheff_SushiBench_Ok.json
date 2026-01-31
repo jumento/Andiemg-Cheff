@@ -1,0 +1,13 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/AndiemgCheff_SushiBench_Ok.ogg"
+      ]
+    }
+  ],
+  "PreventSoundInterruption": false,
+  "MaxInstance": 10,
+  "Volume": -3
+}
+

@@ -1,0 +1,14 @@
+{
+  "Parent": "Andiechef_Effecticon_Wasabi",
+  "ApplicationEffects": {
+    "ScreenEffect": "ScreenEffects/Poison_T1.png"
+  },
+  "DamageCalculator": {
+    "BaseDamage": {
+      "Poison": 6
+    }
+  },
+  "DamageCalculatorCooldown": 5,
+  "Duration": 16,
+  "StatusEffectIcon": "Icons/ItemsGenerated/Poison.png"
+}

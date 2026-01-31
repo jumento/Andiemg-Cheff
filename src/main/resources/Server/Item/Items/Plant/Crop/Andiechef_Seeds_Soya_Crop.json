@@ -1,0 +1,221 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Andiechef_Food_Seed_Soya_crop.name",
+    "Description": "server.items.Andiechef_Food_Seed_Soya_crop.description"
+  },
+  "Parent": "Template_Crop_Block",
+  "BlockType": {
+    "RandomRotation": "YawStep90",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Plants/Seeds_Textures/SmallYellow.png",
+        "Weight": 1
+      }
+    ],
+    "BlockSoundSetId": "Seeds",
+    "State": {
+      "Definitions": {
+        "Stage1": {
+          "CustomModel": "Blocks/Foliage/Plants/Dense_Small_3Rows.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Foliage/Plants/Dense_Small_3Rows_Wheat_01.png",
+              "Weight": 1
+            }
+          ],
+          "Effect": [
+            "WindAttached"
+          ],
+          "Gathering": {
+            "Soft": {
+              "IsWeaponBreakable": false,
+              "DropList": "Andiechef_Seeds_Soya_Drop_Seed"
+            }
+          },
+          "HitboxType": "Plant_Small",
+          "BlockParticleSetId": "Grass",
+          "BlockSoundSetId": "Plant",
+          "ParticleColor": "#93d72c"
+        },
+        "Stage2": {
+          "CustomModel": "Blocks/Foliage/Plants/Dense_Medium_3Rows.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Resources/Soya_PlantS.png",
+              "Weight": 1
+            }
+          ],
+          "Effect": [
+            "WindAttached"
+          ],
+          "Gathering": {
+            "Soft": {
+              "IsWeaponBreakable": false,
+              "DropList": "Andiechef_Seeds_Soya_Drop_Seed"
+            }
+          },
+          "HitboxType": "Plant_Large",
+          "BlockParticleSetId": "Grass",
+          "BlockSoundSetId": "Plant",
+          "ParticleColor": "#9dd05d"
+        },
+        "Stage3": {
+          "CustomModel": "Blocks/Foliage/Plants/Dense_Medium_3Rows.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Resources/Soya_PlantM.png",
+              "Weight": 1
+            }
+          ],
+          "Effect": [
+            "WindAttached"
+          ],
+          "Gathering": {
+            "Soft": {
+              "IsWeaponBreakable": false,
+              "DropList": "Andiechef_Seeds_Soya_Drop_Seed"
+            }
+          },
+          "HitboxType": "Plant_Full",
+          "BlockParticleSetId": "Grass",
+          "BlockSoundSetId": "Plant",
+          "ParticleColor": "#a7e285"
+        },
+        "StageFinal": {
+          "CustomModel": "Blocks/Foliage/Plants/Dense_Medium_3Rows.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Resources/Soya_Plant.png",
+              "Weight": 1
+            }
+          ],
+          "Effect": [
+            "WindAttached"
+          ],
+          "InteractionHint": "server.interactionHints.harvest",
+          "Gathering": {
+            "Harvest": {
+              "DropList": "Andiechef_Drop_Item_Soya"
+            },
+            "Soft": {
+              "IsWeaponBreakable": false,
+              "DropList": "Andiechef_Seeds_Soya_Drop_Seed"
+            }
+          },
+          "BlockParticleSetId": "Grass",
+          "ParticleColor": "#ba6700",
+          "BlockSoundSetId": "Plant",
+          "HitboxType": "Plant_Tall_Small"
+        }
+      }
+    },
+    "Farming": {
+      "Stages": {
+        "Default": [
+          {
+            "Duration": {
+              "Min": 10500,
+              "Max": 10500
+            },
+            "Type": "BlockState",
+            "State": "default"
+          },
+          {
+            "Duration": {
+              "Min": 25300,
+              "Max": 25300
+            },
+            "Type": "BlockState",
+            "SoundEventId": "SFX_Crops_Grow",
+            "State": "Stage1"
+          },
+          {
+            "Duration": {
+              "Min": 25300,
+              "Max": 25300
+            },
+            "Type": "BlockState",
+            "SoundEventId": "SFX_Crops_Grow",
+            "State": "Stage2"
+          },
+          {
+            "Duration": {
+              "Min": 25300,
+              "Max": 25300
+            },
+            "Type": "BlockState",
+            "SoundEventId": "SFX_Crops_Grow",
+            "State": "Stage3"
+          },
+          {
+            "Type": "BlockState",
+            "SoundEventId": "SFX_Crops_Grow_Stage_Complete",
+            "State": "StageFinal"
+          }
+        ],
+        "Harvested": [
+          {
+            "Duration": {
+              "Min": 25300,
+              "Max": 25300
+            },
+            "Type": "BlockState",
+            "SoundEventId": "SFX_Crops_Grow",
+            "State": "Stage1"
+          },
+          {
+            "Duration": {
+              "Min": 25300,
+              "Max": 25300
+            },
+            "Type": "BlockState",
+            "SoundEventId": "SFX_Crops_Grow",
+            "State": "Stage2"
+          },
+          {
+            "Duration": {
+              "Min": 25300,
+              "Max": 25300
+            },
+            "Type": "BlockState",
+            "SoundEventId": "SFX_Crops_Grow",
+            "State": "Stage3"
+          },
+          {
+            "Type": "BlockState",
+            "SoundEventId": "SFX_Crops_Grow_Stage_Complete",
+            "State": "StageFinal"
+          }
+        ]
+      },
+      "StartingStageSet": "Default",
+      "ActiveGrowthModifiers": [
+        "Fertilizer",
+        "Water",
+        "LightLevel"
+      ],
+      "StageSetAfterHarvest": "Harvested"
+    },
+    "Gathering": {
+      "Soft": {
+        "IsWeaponBreakable": false,
+        "DropList": "Andiechef_Seeds_Soya_Drop_Seed"
+      }
+    },
+    "CustomModelScale": 0.9,
+    "ParticleColor": "#e3bf76"
+  },
+  "IconProperties": {
+    "Scale": 1.115,
+    "Rotation": [
+      22.5,
+      45.0,
+      22.5
+    ],
+    "Translation": [
+      0.0,
+      -4.2
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Plant_Crop_Wheat_Block.png"
+}

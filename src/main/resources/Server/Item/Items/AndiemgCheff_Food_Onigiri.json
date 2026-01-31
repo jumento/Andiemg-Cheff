@@ -1,0 +1,77 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.AndiemgCheff_Food_Onigiri.name",
+    "Description": "server.items.AndiemgCheff_Food_Onigiri.description"
+  },
+  "Parent": "Template_Food",
+  "Quality": "Rare",
+  "Icon": "Icons/ItemsGenerated/AndiemgCheff_Food_Onigiri.png",
+  "BlockType": {
+    "Material": "Empty",
+    "DrawType": "Model",
+    "CustomModel": "Items/AndiemgCheff_Onigiri.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/AndiemgCheff_Onigiri.png",
+        "Weight": 1
+      }
+    ],
+    "ParticleColor": "#a2aba8"
+  },
+  "InteractionVars": {
+    "Effect": {
+      "Interactions": [
+        {
+          "Type": "ApplyEffect",
+          "EffectId": "Food_Instant_Heal_T3"
+        },
+        "HealthRegen_TierCheck_T3",
+        "Meat_TierCheck_T3"
+      ]
+    }
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Food_Fish_Raw",
+        "Quantity": 3
+      },
+      {
+        "ItemId": "Plant_Crop_Rice_Item",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "AndiemgCheff_Ingredient_SalsaSoya",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "AndiemgCheff_Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "AndiemgCheff_Food"
+        ],
+        "RequiredTierLevel": 2
+      }
+    ],
+    "TimeSeconds": 3
+  },
+  "ItemLevel": 10,
+  "MaxStack": 10,
+  "DropOnDeath": true,
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      -10,
+      125,
+      25
+    ],
+    "Translation": [
+      2,
+      -11
+    ]
+  },
+  "ItemSoundSetId": "ISS_Weapons_Wand"
+}
+

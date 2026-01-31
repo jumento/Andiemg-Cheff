@@ -1,0 +1,62 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Andiechef_Food_Seed_Soya_Fermentada_Item.name",
+    "Description": "server.items.Andiechef_Food_Seed_Soya_Fermentada_Item.description"
+  },
+  "Parent": "Template_Crop_Item",
+  "Icon": "Icons/ItemsGenerated/Andiechef_Item_Soya_Fermentada.png",
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      45,
+      45,
+      45
+    ],
+    "Translation": [
+      1,
+      -1
+    ]
+  },
+  "Texture": "Resources/SoyaBeanFermented.png",
+  "Model": "Resources/Plants/Seeds.blockymodel",
+  "Quality": "Common",
+  "DropOnDeath": true,
+  "InteractionVars": {
+    "Effect": {
+      "Interactions": [
+        {
+          "Type": "ApplyEffect",
+          "EffectId": "Poison_T1"
+        },
+        {
+          "Type": "ApplyEffect",
+          "EffectId": "Food_Health_Regen_Tiny"
+        }
+      ]
+    }
+  },
+  "Recipe": {
+    "Output": [
+      {
+        "ItemId": "Andiechef_Item_Soya_Fermentada",
+        "Quantity": 1
+      }
+    ],
+    "Input": [
+      {
+        "ItemId": "Andiechef_Food_Item_Soya",
+        "Quantity": 5
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Processing",
+        "Categories": [
+          "Andiechef_Ingredients"
+        ],
+        "Id": "Andiechef_Fermentadora"
+      }
+    ],
+    "TimeSeconds": 300
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "Container": {
+    "Type": "Multiple",
+    "Containers": [
+      {
+        "Type": "Single",
+        "Item": {
+          "ItemId": "Andiechef_Food_Item_Soya",
+          "QuantityMax": 3
+        }
+      },
+      {
+        "Type": "Single",
+        "Item": {
+          "QuantityMax": 4,
+          "ItemId": "Ingredient_Life_Essence"
+        }
+      }
+    ]
+  }
+}

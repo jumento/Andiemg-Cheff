@@ -1,0 +1,16 @@
+{
+  "Container": {
+    "Type": "Multiple",
+    "Containers": [
+      {
+        "Type": "Single",
+        "Weight": 100.0,
+        "Item": {
+          "ItemId": "Andiechef_Seeds_Soya",
+          "QuantityMin": 1,
+          "QuantityMax": 1
+        }
+      }
+    ]
+  }
+}

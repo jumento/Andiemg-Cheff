@@ -1,0 +1,87 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Andiechef_Food_Bubbletea.name",
+    "Description": "server.items.Andiechef_Food_Bubbletea.description"
+  },
+  "Parent": "Template_Food",
+  "Quality": "Uncommon",
+  "Icon": "Icons/ItemsGenerated/Andiechef_Food_BubbleTea.png",
+  "BlockType": {
+    "Material": "Empty",
+    "DrawType": "Model",
+    "CustomModel": "Items/Andiechef_BubbleTea.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Andiechef_BubbleTea_Milk.png",
+        "Weight": 1
+      }
+    ],
+    "ParticleColor": "#ffffff",
+    "CustomModelScale": 1,
+    "Opacity": "Solid",
+    "BlockParticleSetId": "GlassSmall"
+  },
+  "InteractionVars": {
+    "Effect": {
+      "Interactions": [
+        {
+          "Type": "ApplyEffect",
+          "EffectId": "Food_Health_Restore_Tiny"
+        }
+      ]
+    }
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Plant_Crop_Wheat_Item",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Ingredient_Life_Essence",
+        "Quantity": 10
+      },
+      {
+        "ResourceTypeId": "Milk_Bucket",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Andiechef_Workbench",
+        "Categories": [
+          "Andiechef_Food"
+        ],
+        "RequiredTierLevel": 0
+      }
+    ],
+    "TimeSeconds": 2,
+    "Output": [
+      {
+        "ItemId": "Andiechef_Food_BubbleTea",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Container_Bucket"
+      }
+    ]
+  },
+  "ItemLevel": 1,
+  "MaxStack": 2,
+  "DropOnDeath": true,
+  "IconProperties": {
+    "Scale": 1.1,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      -0.5,
+      -4
+    ]
+  },
+  "Scale": 0.7,
+  "ItemSoundSetId": "ISS_Default"
+}

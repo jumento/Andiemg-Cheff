@@ -1,0 +1,78 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.AndiemgCheff_Food_Rollo.name",
+    "Description": "server.items.AndiemgCheff_Food_Rollo.description"
+  },
+  "Parent": "Template_Food",
+  "Quality": "Rare",
+  "Icon": "Icons/ItemsGenerated/AndiemgCheff_Food_Rollo.png",
+  "BlockType": {
+    "Material": "Empty",
+    "DrawType": "Model",
+    "CustomModel": "Items/AndiemgCheff_Rollo.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/AndiemgCheff_Rollo.png",
+        "Weight": 1
+      }
+    ],
+    "ParticleColor": "#a2aba8",
+    "CustomModelScale": 0.5
+  },
+  "InteractionVars": {
+    "Effect": {
+      "Interactions": [
+        {
+          "Type": "ApplyEffect",
+          "EffectId": "Food_Instant_Heal_T3"
+        },
+        "HealthRegen_TierCheck_T3",
+        "Meat_TierCheck_T3"
+      ]
+    }
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Food_Fish_Grilled",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ingredient_Spices",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Plant_Crop_Rice_Item",
+        "Quantity": 5
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "AndiemgCheff_Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "AndiemgCheff_Food"
+        ]
+      }
+    ],
+    "TimeSeconds": 1
+  },
+  "ItemLevel": 3,
+  "MaxStack": 15,
+  "DropOnDeath": true,
+  "IconProperties": {
+    "Scale": 0.7,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      1,
+      -2
+    ]
+  },
+  "ItemSoundSetId": "ISS_Weapons_Wand",
+  "Scale": 1
+}
+

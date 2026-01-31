@@ -1,0 +1,119 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.AndiemgCheff_Tool_TropySalmon.name",
+    "Description": "server.items.AndiemgCheff_Tool_TropySalmon.description"
+  },
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "Icon": "Icons/ItemsGenerated/AndiemgCheff_Tools_Tropy_Salmon.png",
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "Group": "Wood",
+    "CustomModel": "Items/AndiemgCheff_Tropy_Salmon.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/AndiemgCheff_Tropy_Salmon.png",
+        "Weight": 1
+      }
+    ],
+    "HitboxType": "Painting",
+    "VariantRotation": "NESW",
+    "FlipType": "Symmetric",
+    "Support": {
+      "North": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "ChangeState",
+            "Changes": {
+              "default": "Animado",
+              "Animado": "AnimadoAlt",
+              "AnimadoAlt": "Animado"
+            }
+          }
+        ]
+      }
+    },
+    "State": {
+      "Definitions": {
+        "Animado": {
+          "CustomModelAnimation": "Resources/Anim/Dotworry.blockyanim",
+          "InteractionSoundEventId": "AndiemgCheff_Dont_Worry"
+        },
+        "AnimadoAlt": {
+          "CustomModelAnimation": "Resources/Anim/Dotworry.blockyanim",
+          "InteractionSoundEventId": "AndiemgCheff_Dont_Worry"
+        }
+      }
+    },
+    "BlockParticleSetId": "Wood",
+    "BlockSoundSetId": "Wood",
+    "ParticleColor": "#593a01",
+    "CustomModelScale": 1,
+    "Gathering": {
+      "Soft": {}
+    },
+    "InteractionSoundEventId": "AndiemgCheff_Dont_Worry"
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Ancient"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "IconProperties": {
+    "Scale": 0.7,
+    "Rotation": [
+      344,
+      351,
+      354
+    ],
+    "Translation": [
+      -2,
+      -9
+    ]
+  },
+  "Model": "Items/AndiemgCheff_Tropy_Salmon.blockymodel",
+  "Texture": "Items/AndiemgCheff_Tropy_Salmon.png",
+  "Recipe": {
+    "Input": [
+      {
+        "Quantity": 3,
+        "ResourceTypeId": "Fish_Rare"
+      },
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Ingredient_Bar_Iron"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "AndiemgCheff_Workbench",
+        "Categories": [
+          "AndiemgCheff_Tools"
+        ]
+      }
+    ]
+  },
+  "PlayerAnimationsId": "Block"
+}
+
