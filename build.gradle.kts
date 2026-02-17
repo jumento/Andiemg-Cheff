@@ -3,7 +3,7 @@ plugins {
 }
 
 group = "mx.jume.andiemgcheff"
-version = "1.0.0"
+version = "1.0.1"
 
 java {
     toolchain {
@@ -41,6 +41,7 @@ val generateManifest by tasks.registering {
               "Group": "${project.group}",
               "Name": "${rootProject.name}",
               "Version": "${project.version}",
+              "ServerVersion": "2026.02.17-255364b8e",
               "Main": "${project.group}.AndiemgCheff",
               "Authors": [ 
                   { "Name": "jume" },
