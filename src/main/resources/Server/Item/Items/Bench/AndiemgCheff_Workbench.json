@@ -1,40 +1,9 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.AndiemgCheff_Workbench.name",
-    "Description": "server.items.AndiemgCheff_Workbench.description"
+    "Name": "delete pls",
+    "Description": "server.items.Andiechef_Workbench.description"
   },
-  "Recipe": {
-    "Input": [
-      {
-        "Quantity": 20,
-        "ResourceTypeId": "Wood_Trunk"
-      },
-      {
-        "Quantity": 3,
-        "ResourceTypeId": "Rock"
-      },
-      {
-        "Quantity": 3,
-        "ItemId": "Ingredient_Bar_Iron"
-      },
-      {
-        "Quantity": 5,
-        "ItemId": "Food_Fish_Raw"
-      }
-    ],
-    "BenchRequirement": [
-      {
-        "Type": "Crafting",
-        "Categories": [
-          "Workbench_Crafting"
-        ],
-        "Id": "Workbench",
-        "RequiredTierLevel": 2
-      }
-    ],
-    "TimeSeconds": 3
-  },
-  "Icon": "Icons/ItemsGenerated/AndiemgCheff_Workbench.png",
+  "Icon": "Icons/ItemsGenerated/Andiechef_Workbench.png",
   "Categories": [
     "Furniture.Benches"
   ],
@@ -42,10 +11,10 @@
     "Material": "Solid",
     "DrawType": "Model",
     "Opacity": "Transparent",
-    "CustomModel": "Items/AndiemgCheff_SushiBench.blockymodel",
+    "CustomModel": "Items/Andiechef_SushiBench.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Items/AndiemgCheff_SushiBench.png",
+        "Texture": "Items/Andiechef_SushiBench.png",
         "Weight": 1
       }
     ],
@@ -55,24 +24,24 @@
       "Type": "Crafting",
       "Categories": [
         {
-          "Id": "AndiemgCheff_Food",
+          "Id": "Andiechef_Food",
           "Icon": "Icons/CraftingCategories/Cooking/Prepared.png",
-          "Name": "server.AndiemgCheff_Categories.workbench.food"
+          "Name": "server.Andiechef_Categories.workbench.food"
         },
         {
-          "Id": "AndiemgCheff_Ingredients",
+          "Id": "Andiechef_Ingredients",
           "Icon": "Icons/CraftingCategories/Farming/Saplings.png",
-          "Name": "server.AndiemgCheff_Categories.workbench.ingredients"
+          "Name": "server.Andiechef_Categories.workbench.ingredients"
         },
         {
-          "Id": "AndiemgCheff_Tools",
+          "Id": "Andiechef_Tools",
           "Icon": "Icons/CraftingCategories/Furniture/Pottery.png",
-          "Name": "server.AndiemgCheff_Categories.workbench.tools"
+          "Name": "server.Andiechef_Categories.workbench.tools"
         }
       ],
       "Id": "AndiemgCheff_Workbench",
-      "LocalOpenSoundEventId": "AndiemgCheff_SushiBench_Open",
-      "LocalCloseSoundEventId": "AndiemgCheff_SushiBench_Close",
+      "LocalOpenSoundEventId": "Andiechef_SushiBench_Open",
+      "LocalCloseSoundEventId": "Andiechef_SushiBench_Close",
       "TierLevels": [
         {
           "UpgradeRequirement": {
@@ -83,7 +52,7 @@
                 "Quantity": 20
               },
               {
-                "ItemId": "AndiemgCheff_Food_Item_Soya",
+                "ItemId": "Andiechef_Food_Item_Soya",
                 "Quantity": 10
               },
               {
@@ -101,17 +70,17 @@
                 "Quantity": 20
               },
               {
-                "ItemId": "AndiemgCheff_Love"
+                "ItemId": "Andiechef_Love"
               },
               {
-                "ItemId": "AndiemgCheff_Fermentadora"
+                "ItemId": "Andiechef_Fermentadora"
               }
             ],
             "TimeSeconds": 3
           }
         }
       ],
-      "CompletedSoundEventId": "AndiemgCheff_SushiBench_Ok"
+      "CompletedSoundEventId": "Andiechef_SushiBench_Ok"
     },
     "State": {
       "Id": "crafting",
@@ -138,7 +107,7 @@
     "BlockSoundSetId": "Wood",
     "Particles": [
       {
-        "SystemId": "AndiemgCheff_HojasCerezoParticle",
+        "SystemId": "Andiechef_HojasCerezoParticle",
         "Color": "#ff9dc6",
         "Scale": 0.1
       }
@@ -169,4 +138,3 @@
   "ItemLevel": 0,
   "UsePlayerAnimations": false
 }
-

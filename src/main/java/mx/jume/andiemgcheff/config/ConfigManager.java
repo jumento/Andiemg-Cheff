@@ -75,11 +75,11 @@ public class ConfigManager {
             foodConfig.entries.put("Andiechef_Food_Onigiri", new FoodValuesConfig.FoodEntry(15.0f, 155.0f, 0.0f));
             foodConfig.entries.put("Andiechef_Ingredient_SalsaSoya",
                     new FoodValuesConfig.FoodEntry(8.0f, 110.0f, 10.0f));
-            foodConfig.entries.put("Andiechef_Food_Sake", new FoodValuesConfig.FoodEntry(2.0f, 105.0f, 25.0f));
+            foodConfig.entries.put("Andiechef_Food_Sake", new FoodValuesConfig.FoodEntry(2.0f, 105.0f, 40.0f));
             foodConfig.entries.put("Andiechef_Ingredient_Wasabi", new FoodValuesConfig.FoodEntry(5.0f, 100.0f, -15.0f));
             foodConfig.entries.put("Andiechef_YakimeshiFish", new FoodValuesConfig.FoodEntry(12.0f, 150.0f, 10.0f));
             foodConfig.entries.put("Andiechef_YakimeshiChicken", new FoodValuesConfig.FoodEntry(11.0f, 150.0f, 10.0f));
-            foodConfig.entries.put("Andiechef_Food_BubbleTea", new FoodValuesConfig.FoodEntry(3.0f, 100.0f, 18.0f));
+            foodConfig.entries.put("Andiechef_Food_BubbleTea", new FoodValuesConfig.FoodEntry(3.0f, 100.0f, 25.0f));
             saveFoodConfig();
             return;
         }
