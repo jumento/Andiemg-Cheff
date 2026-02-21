@@ -43,6 +43,10 @@
       {
         "ItemId": "Andiechef_Ingredient_SalsaSoya",
         "Quantity": 1
+      },
+      {
+        "ItemId": "Andiechef_Ingredient_Palillos",
+        "Quantity": 1
       }
     ],
     "BenchRequirement": [

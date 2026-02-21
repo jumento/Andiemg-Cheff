@@ -44,6 +44,10 @@
       {
         "ItemId": "Plant_Crop_Rice_Item",
         "Quantity": 5
+      },
+      {
+        "ItemId": "Andiechef_Ingredient_Palillos",
+        "Quantity": 1
       }
     ],
     "BenchRequirement": [

@@ -63,3 +63,6 @@ items.Andiechef_Tool_YakimeshiCamaron.name = Shrimp Yakimeshi
 items.Andiechef_Tool_YakimeshiCerdo.name = Pork Yakimeshi
 items.Andiechef_Tool_YakimeshiPollo.name = Chicken Yakimeshi
 items.Andiechef_Tool_Yakimeshi.description = The perfect meal if you do not like raw fish
+
+items.Andiechef_Ingredient_Palillos.name = Chopsticks
+items.Andiechef_Ingredient_Palillos.description = Useful in recipes\n and can be placed in <color is="#1C669C"> the Salvager</color>

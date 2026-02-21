@@ -63,3 +63,6 @@ items.Andiechef_Tool_YakimeshiCamaron.name = Yakimeshi de Camaron
 items.Andiechef_Tool_YakimeshiCerdo.name = Yakimeshi de Cerdo
 items.Andiechef_Tool_YakimeshiPollo.name = Yakimeshi de Pollo
 items.Andiechef_Tool_Yakimeshi.description = El alimento perfecto si no te gusta el pescado crudo
+
+items.Andiechef_Ingredient_Palillos.name = Palillos Chinos
+items.Andiechef_Ingredient_Palillos.description = Util en recetas\n y puedes meterlos a la <color is="#1C669C"> salvager </color>

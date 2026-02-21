@@ -1,0 +1,42 @@
+{
+  "Icon": "Icons/ItemsGenerated/Andiechef_Palillos.png",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "Model": "Items/Andiechef_Palillos.blockymodel",
+  "Texture": "Items/Andiechef_Palillos.png",
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Life_Essence",
+        "Quantity": 2
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Andiechef_Workbench",
+        "Categories": [
+          "Andiechef_Ingredients"
+        ]
+      }
+    ],
+    "TimeSeconds": 1
+  },
+  "TranslationProperties": {
+    "Name": "server.items.Andiechef_Ingredient_Palillos.name",
+    "Description": "server.items.Andiechef_Ingredient_Palillos.description"
+  }
+}
