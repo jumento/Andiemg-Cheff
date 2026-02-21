@@ -292,3 +292,17 @@
 - Affected artifacts: features.md, src/main/resources/... (Palillos, Nigiri, Onigiri, Rollo files), build.gradle.kts, server.lang
 - Verification (build/compile): SUCCESS (Gradle build successful)
 - Status: sealed
+
+## 2026-02-21 (Entry 21)
+
+- Timestamp (America/Monterrey): 2026-02-21 17:28
+- Actor: AI (Antigravity)
+- Type: implementation
+- Summary: Publicación manual en la nube (cloud push).
+- Details:
+  - El usuario ha ordenado explícitamente la publicación en la nube, evadiendo la contención local temporal de la Sección 8 de `BOT.md`.
+  - Se procedió a realizar un push del repositorio a la rama principal (main).
+  - Se procedió a realizar un push explícito de todos los tags creados (`andiemgcheff1`).
+- Affected artifacts: GitHub Remote (push)
+- Verification (build/compile): SUCCESS (Push a la nube)
+- Status: sealed
