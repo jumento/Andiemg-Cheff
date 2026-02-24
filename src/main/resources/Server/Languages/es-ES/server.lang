@@ -20,6 +20,7 @@ items.Andiechef_Workbench.name = Barra de Sushi
 items.Andiechef_Workbench.description = Se un maestro en el arte del Sushi
 
 items.Andiechef_Food_Seed_Soya.name = Semillas de Soya
+items.Andiechef_Food_Seed_Soya_Eternal.name = Semillas de Soya (Eternal)
 items.Andiechef_Food_Seed_Soya.description = La Soya es fundamental en esta cocina, a cultivar!
 items.Andiechef_Food_Seed_Soya_crop.name = Soya
 items.Andiechef_Food_Seed_Soya_crop.description = Cultivo de Soya  
@@ -56,9 +57,10 @@ items.Andiechef_Love.name = Andiemg y Jume
 items.Andiechef_Love.description = Este mod surge del <color is="#BF2A2A">amor</color>, \ngracias por tu apoyo \nAndiemg & Jume
 
 items.Andiechef_Tool_Ohitsu.name = Ohitsu - Arrocera
-items.Andiechef_Tool_Ohitsu.description = Funciona con arroz, mas la carne que a ti te guste para el famoso Yakimeshi 
+items.Andiechef_Tool_Ohitsu.description = Funciona con arroz, mas la carne cruda que a ti te guste para el famoso Yakimeshi 
 
-items.Andiechef_Tool_YakimeshiRes.name = Yakimeshi de res
+items.Andiechef_Tool_YakimeshiRes.name = Yakimeshi de Res
+items.Andiechef_Tool_YakimeshiMix.name = Yakimeshi Mixto
 items.Andiechef_Tool_YakimeshiCamaron.name = Yakimeshi de Camaron
 items.Andiechef_Tool_YakimeshiCerdo.name = Yakimeshi de Cerdo
 items.Andiechef_Tool_YakimeshiPollo.name = Yakimeshi de Pollo
@@ -66,3 +68,11 @@ items.Andiechef_Tool_Yakimeshi.description = El alimento perfecto si no te gusta
 
 items.Andiechef_Ingredient_Palillos.name = Palillos Chinos
 items.Andiechef_Ingredient_Palillos.description = Util en recetas\n y puedes meterlos a la <color is="#1C669C"> salvager </color>
+
+items.Andiechef_Glider.name = Planeador de Dragon
+items.Andiechef_Glider.description = Epico planeador con el mejor diseño de orbis
+
+itemQuality.Andiechef_gold.name = AndieMG Cheff Gold
+
+items.Andiechef_Duouli.name = Douli
+items.Andiechef_Duouli.description = Ideal para horas de farmeo en la granja\n tu sudor <color is="#96DAFF"> regara los cultivos en automatico</color>

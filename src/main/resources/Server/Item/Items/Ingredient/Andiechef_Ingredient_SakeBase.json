@@ -49,7 +49,7 @@
         "Quantity": 5
       },
       {
-        "ItemId": "*Container_Bucket_State_Filled_Water",
+        "ItemId": "*Deco_Tankard_State_Filled_Water",
         "Quantity": 1
       }
     ],
@@ -66,7 +66,7 @@
     "TimeSeconds": 4,
     "Output": [
       {
-        "ItemId": "Container_Bucket",
+        "ItemId": "Deco_Tankard",
         "Quantity": 1
       },
       {

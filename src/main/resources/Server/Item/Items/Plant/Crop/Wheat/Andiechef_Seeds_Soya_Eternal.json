@@ -1,0 +1,95 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Andiechef_Food_Seed_Soya_Eternal.name",
+    "Description": "server.items.Andiechef_Food_Seed_Soya.description"
+  },
+  "Quality": "Uncommon",
+  "Categories": [
+    "Blocks.Plants"
+  ],
+  "Interactions": {
+    "Secondary": "Seed_Condition"
+  },
+  "InteractionVars": {
+    "SeedId": {
+      "Interactions": [
+        {
+          "Parent": "Seed_Place",
+          "BlockTypeToPlace": "Andiechef_Seeds_Soya_Block_Eternal"
+        }
+      ]
+    }
+  },
+  "Model": "Resources/Plants/SeedBag.blockymodel",
+  "Texture": "Resources/Soya_Eternal.png",
+  "PlayerAnimationsId": "Item",
+  "Icon": "Icons/ItemsGenerated/Andiechef_Seeds_Soya_Eternal.png",
+  "IconProperties": {
+    "Scale": 1.1,
+    "Rotation": [
+      0,
+      30,
+      15
+    ],
+    "Translation": [
+      2.5,
+      -11
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Plant"
+    ],
+    "Family": [
+      "Seeds"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "Recipe": {
+    "TimeSeconds": 0,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Life_Essence",
+        "Quantity": 20
+      },
+      {
+        "ItemId": "Andiechef_Food_Item_Soya",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Andiechef_Item_Soya_Fermentada",
+        "Quantity": 1
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Andiechef_Seeds_Soya_Eternal",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "RequiredTierLevel": 3,
+        "Type": "Crafting",
+        "Id": "Andiechef_Workbench",
+        "Categories": [
+          "Andiechef_Ingredients"
+        ]
+      }
+    ],
+    "RequiredMemoriesLevel": 2
+  },
+  "ItemLevel": 6,
+  "Scale": 1.0,
+  "Particles": [
+    {
+      "SystemId": "Seeds_Eternal",
+      "Scale": 0.2,
+      "PositionOffset": {
+        "Y": 0.2
+      }
+    }
+  ]
+}

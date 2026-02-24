@@ -1,9 +1,9 @@
 {
-  "Icon": "Icons/ItemsGenerated/Andiechef_YakimeshiFish.png",
+  "Icon": "Icons/ItemsGenerated/Andiechef_Yakimeshimix.png",
   "Recipe": {
     "Input": [
       {
-        "ItemId": "Food_Fish_Raw"
+        "ItemId": "Food_Wildmeat_Raw"
       }
     ],
     "BenchRequirement": [
@@ -17,7 +17,7 @@
   "BlockType": {
     "CustomModelTexture": [
       {
-        "Texture": "Items/Andiechef_Yakimeshi_Camaron.png"
+        "Texture": "Items/Andiechef_Yakimeshi_Mix.png"
       }
     ],
     "CustomModel": "Items/Andiechef_Yakimeshi.blockymodel",
@@ -65,7 +65,7 @@
   "ItemSoundSetId": "ISS_Weapons_Wand",
   "TranslationProperties": {
     "Description": "server.items.Andiechef_Tool_Yakimeshi.description",
-    "Name": "server.items.Andiechef_Tool_YakimeshiCamaron.name"
+    "Name": "server.items.Andiechef_Tool_YakimeshiMix.name"
   },
   "Scale": 2
 }

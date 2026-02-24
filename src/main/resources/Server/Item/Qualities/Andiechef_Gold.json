@@ -1,0 +1,12 @@
+{
+  "QualityValue": 10,
+  "ItemTooltipTexture": "UI/ItemQualities/Tooltips/ItemTooltipCommon.png",
+  "ItemTooltipArrowTexture": "UI/ItemQualities/Tooltips/ItemTooltipCommonArrow.png",
+  "SlotTexture": "UI/ItemQualities/Andiechef_Slotgold.png",
+  "BlockSlotTexture": "UI/ItemQualities/Andiechef_Slotgold.png",
+  "SpecialSlotTexture": "UI/ItemQualities/Andiechef_Slotgold.png",
+  "TextColor": "#ffae00",
+  "LocalizationKey": "server.itemQuality.Andiechef_gold.name",
+  "VisibleQualityLabel": true,
+  "RenderSpecialSlot": true
+}

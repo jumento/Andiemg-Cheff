@@ -41,7 +41,7 @@
         "Quantity": 3
       },
       {
-        "ItemId": "*Container_Bucket_State_Filled_Water"
+        "ItemId": "*Deco_Tankard_State_Filled_Water"
       }
     ],
     "BenchRequirement": [
@@ -60,7 +60,7 @@
         "ItemId": "Andiechef_Ingredient_BotellaSalsaSoya"
       },
       {
-        "ItemId": "Container_Bucket"
+        "ItemId": "Deco_Tankard"
       }
     ]
   },

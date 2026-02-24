@@ -10,11 +10,11 @@
       },
       {
         "ItemId": "Ingredient_Tree_Sap",
-        "Quantity": 100
+        "Quantity": 50
       },
       {
-        "ItemId": "Ingredient_Bolt_Wool",
-        "Quantity": 20
+        "ItemId": "Plant_Crop_Cotton_Item",
+        "Quantity": 50
       }
     ],
     "BenchRequirement": [
@@ -69,16 +69,16 @@
                 "Quantity": 20
               },
               {
-                "Quantity": 3,
-                "ItemId": "Andiechef_Ingredient_BotellaSalsaSoya"
+                "Quantity": 1,
+                "ItemId": "Andiechef_Ingredient_SakeBase"
               },
               {
                 "ItemId": "Ingredient_Tree_Sap",
-                "Quantity": 100
+                "Quantity": 50
               },
               {
-                "ItemId": "Ingredient_Bolt_Wool",
-                "Quantity": 5
+                "ItemId": "Plant_Crop_Cotton_Item",
+                "Quantity": 25
               }
             ],
             "TimeSeconds": 3
@@ -86,7 +86,25 @@
           "CraftingTimeReductionModifier": 0
         },
         {
-          "CraftingTimeReductionModifier": 0.35
+          "CraftingTimeReductionModifier": 0.35,
+          "ExtraInputSlot": 1,
+          "UpgradeRequirement": {
+            "Material": [
+              {
+                "ItemId": "Andiechef_Ingredient_BotellaSalsaSoya",
+                "Quantity": 1
+              },
+              {
+                "ItemId": "Andiechef_Food_Sake"
+              }
+            ],
+            "TimeSeconds": 5
+          }
+        },
+        {
+          "CraftingTimeReductionModifier": 0.65,
+          "ExtraInputSlot": 3,
+          "ExtraOutputSlot": 3
         }
       ]
     },

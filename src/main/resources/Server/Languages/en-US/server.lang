@@ -20,6 +20,7 @@ items.Andiechef_Workbench.name = Sushi Bar
 items.Andiechef_Workbench.description = Become a master of the art of sushi
 
 items.Andiechef_Food_Seed_Soya.name = Soybean Seeds
+items.Andiechef_Food_Seed_Soya_Eternal.name = Soybean Seeds (Eternal)
 items.Andiechef_Food_Seed_Soya.description = Soy is essential in this kitchen, time to grow it!
 items.Andiechef_Food_Seed_Soya_crop.name = Soybean 
 items.Andiechef_Food_Seed_Soya_crop.description = Soybean crop
@@ -56,9 +57,10 @@ items.Andiechef_Love.name = Andiemg and Jume
 items.Andiechef_Love.description = This mod was born from <color is="#BF2A2A">love</color>, \nthanks for your support \nAndiemg & Jume
 
 items.Andiechef_Tool_Ohitsu.name = Ohitsu - Rice Cooker
-items.Andiechef_Tool_Ohitsu.description = Works with rice and the meat of your choice to make the famous Yakimeshi
+items.Andiechef_Tool_Ohitsu.description = Works with rice and the meat raw of your choice to make the famous Yakimeshi
 
 items.Andiechef_Tool_YakimeshiRes.name = Beef Yakimeshi
+items.Andiechef_Tool_YakimeshiMix.name = Yakimeshi mixed
 items.Andiechef_Tool_YakimeshiCamaron.name = Shrimp Yakimeshi
 items.Andiechef_Tool_YakimeshiCerdo.name = Pork Yakimeshi
 items.Andiechef_Tool_YakimeshiPollo.name = Chicken Yakimeshi
@@ -66,3 +68,11 @@ items.Andiechef_Tool_Yakimeshi.description = The perfect meal if you do not like
 
 items.Andiechef_Ingredient_Palillos.name = Chopsticks
 items.Andiechef_Ingredient_Palillos.description = Useful in recipes\n and can be placed in <color is="#1C669C"> the Salvager</color>
+
+items.Andiechef_Glider.name = Dragon Glider
+items.Andiechef_Glider.description = An epic glider with the finest design in Orbis
+
+itemQuality.Andiechef_gold.name = AndieMG Cheff Gold
+
+items.Andiechef_Duouli.name = Douli
+items.Andiechef_Duouli.description = Ideal for long hours of farming on the farm\n Your sweat <color is="#96DAFF">will automatically water the crops</color>

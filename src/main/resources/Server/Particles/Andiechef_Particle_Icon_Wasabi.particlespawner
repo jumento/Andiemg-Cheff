@@ -71,7 +71,7 @@
     }
   ],
   "Particle": {
-    "Texture": "Particles/Textures/Shapes/Effect_Poison_Face1.png",
+    "Texture": "Particles/Textures/Shapes/Andiechef_Effect_Poison_Face1.png",
     "FrameSize": {
       "Width": 128,
       "Height": 128

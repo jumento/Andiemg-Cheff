@@ -1,0 +1,91 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Andiechef_Duouli.name",
+    "Description": "server.items.Andiechef_Duouli.description"
+  },
+  "Parent": "Armor_Iron_Head",
+  "Quality": "Common",
+  "ItemLevel": 0,
+  "Icon": "Icons/ItemsGenerated/Andiechef_Douli.png",
+  "IconProperties": {
+    "Scale": 0.3,
+    "Rotation": [
+      0,
+      61,
+      9
+    ],
+    "Translation": [
+      -1.5,
+      -12.3
+    ]
+  },
+  "Model": "Items/Andiechef_HeadChino.blockymodel",
+  "Texture": "Items/Andiechef_HeadChino.png",
+  "Recipe": {
+    "TimeSeconds": 3,
+    "Input": [
+      {
+        "ItemId": "Andiechef_Food_Item_Soya",
+        "Quantity": 100
+      },
+      {
+        "Quantity": 1,
+        "ItemId": "Andiechef_Food_BubbleTea"
+      },
+      {
+        "ItemId": "Ingredient_Life_Essence_Concentrated",
+        "Quantity": 5
+      },
+      {
+        "ItemId": "Plant_Crop_Rice_Item",
+        "Quantity": 100
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Andiechef_Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Andiechef_Tools"
+        ]
+      }
+    ]
+  },
+  "Armor": {
+    "ArmorSlot": "Head",
+    "BaseDamageResistance": 0,
+    "CosmeticsToHide": [
+      "EarAccessory",
+      "Ear",
+      "Haircut",
+      "HeadAccessory"
+    ],
+    "StatModifiers": {
+      "Health": [
+        {
+          "Amount": -50,
+          "CalculationType": "Additive"
+        }
+      ],
+      "Stamina": [
+        {
+          "CalculationType": "Multiplicative",
+          "Amount": 3.5
+        }
+      ]
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Armor"
+    ],
+    "Family": [
+      "Leather"
+    ]
+  },
+  "MaxDurability": 1,
+  "ItemSoundSetId": "ISS_Armor_Leather",
+  "Interactions": {
+    "Equipped": "Watering_Can_Use"
+  }
+}
